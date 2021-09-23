@@ -1,6 +1,6 @@
 import 'package:bondee/pages/profile_screens.dart/create_profile_screen.dart';
 import 'package:flutter/material.dart';
-
+import 'package:bondee/splash_screen.dart';
 void main() {
   print((5.9).round());
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Bondee',
       theme: ThemeData(primarySwatch: Colors.deepPurple),
-      home: CreateProfile(),
+      home: SplashScreen(),
     );
   }
 }

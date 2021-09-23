@@ -8,3 +8,4 @@ const colorY = const Color(0xffBA9102);
 const colorB = const Color(0xff000000);
 const colorG = const Color(0xff808080);
 const colorW = const Color(0xffffffff);
+const colorWite = const Color(0xffffffff);

@@ -11,9 +11,8 @@ class CreateProfile extends StatefulWidget {
 }
 
 class _CreateProfileState extends State<CreateProfile> {
-  
   int _gender = 3;
-  int  _maritalS = 4;
+  int _maritalS = 4;
 
   var _relationship;
   @override
@@ -112,7 +111,6 @@ class _CreateProfileState extends State<CreateProfile> {
                                       TextOf(
                                           "Male", colorW, 18, FontWeight.w400),
                                       Radio(
-                                        
                                           value: 1,
                                           groupValue: _gender,
                                           onChanged: (chosen) {
@@ -204,7 +202,6 @@ class _CreateProfileState extends State<CreateProfile> {
                                         TextOf("Single", colorW, 18,
                                             FontWeight.w400),
                                         Radio(
-                                          
                                             value: 3,
                                             groupValue: _maritalS,
                                             onChanged: (chosen) {

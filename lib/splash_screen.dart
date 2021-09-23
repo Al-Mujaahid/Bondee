@@ -13,7 +13,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     new Future.delayed(
-        const Duration(seconds: 3),
+        const Duration(seconds: 10),
         () => Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => CreateProfile()),
